@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ParkEase - Reservas</title>
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body class="bg-white font-sans text-gray-800">
+  <!-- Navbar -->
+
+  <section class="max-w-md mx-auto mt-8">
+    <h1 class="text-2xl font-bold mb-4">Reservar espacio</h1>
+    <form class="space-y-4">
+      <div>
+        <label class="label" for="parqueo">Parqueo:</label>
+        <select id="parqueo" class="input w-full">
+          <option>Parqueo A</option>
+          <option>Parqueo B</option>
+        </select>
+      </div>
+      <div>
+        <label class="label" for="fecha">Fecha:</label>
+        <input type="date" id="fecha" class="input w-full">
+      </div>
+      <button type="submit" class="btn-primary">Reservar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+</body>
+</html>
